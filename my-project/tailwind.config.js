@@ -15,7 +15,8 @@ export default {
       },
 
       fontFamily:{
-        'lato':["Lato", "sans-serif"]
+        'lato':["Lato", "serif"],
+        'josefin':["Josefin Sans", "serif"]
 
       },
     },
