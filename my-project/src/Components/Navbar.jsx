@@ -3,6 +3,7 @@ import Logo from '../assets/Logo.png'
 import { CiSearch } from "react-icons/ci";
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -25,8 +26,8 @@ const Navbar = () => {
 
         <div className="md:flex md:justify-between  w-[80%] ">
             <ul className={`md:flex md:gap-5 font-lato items-center  md:static  ${menuShow ? 'absolute top-20 left-36 pb-40 ' : 'absolute top-0 -left-72' }`}>
-                <li className='hover:text-primary'>Home</li>
-                <li className='hover:text-primary'>Pages</li>
+                <li  className='hover:text-primary'><Link to='/'>Home</Link></li>
+                <li className='hover:text-primary'><Link to='/shop'>Pages</Link> </li>
                 <li className='hover:text-primary'>Products</li>
                 <li className='hover:text-primary'>Blog</li>
                 <li className='hover:text-primary'>Shop</li>

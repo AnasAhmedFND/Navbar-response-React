@@ -4,7 +4,7 @@ import All from '../assets/all.png'
 const Hero = () => {
   return (
     <>
-      <div className=" md:flex md:px-10 md:pb-20  p-2 bg-[#e2cfdf] md:justify-between ">
+      <div className=" md:flex md:px-10 md:pb-20   bg-[#f2eff2] md:justify-between ">
         <div className="">
             <img src={Lamp} alt="" />
             
@@ -17,7 +17,7 @@ const Hero = () => {
             <button className='border text-white bg-biguni px-5 py-2 text-[13px] mt-2'>Shop Now</button>
         </div>
 
-        <div className="w-[40%] md:mt-20">
+        <div className="w-[40%] md:mt-20 relative md:right-10">
             <img src={All} alt="" />          
 
         </div>

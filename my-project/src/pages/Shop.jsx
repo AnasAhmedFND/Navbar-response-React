@@ -1,10 +1,12 @@
 import React from 'react'
+import Featured from '../Components/Featured'
+
 
 const About = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Featured/>
+    </>
   )
 }
 
