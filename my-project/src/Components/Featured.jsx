@@ -8,7 +8,7 @@ const Featured = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1
   };
 
@@ -18,13 +18,15 @@ let filter = info.filter((item) => item.id >= 1 && item.id <= 6)
   return (
     <>
       <div className="mt-10 ">
-        <h1 className='text-center text-2xl font-bold font-josefin'>Featured Products</h1>
-        <div>
+        <h1 className='text-center text-2xl font-bold font-josefin mt-20 pb-10'>Featured Products</h1>
+
+        <div className=' w-[70%] m-auto gap-3'>
+
           <Slider {...settings}>
     
           {
             filter.map((item)=>(
-              <div className="">
+              <div className="gap-4 pb-20 ">
              <img className='border w-[250px]' src={item.thumbnail} alt="" />
              <h3>{item.title}</h3>
              <div className="">
