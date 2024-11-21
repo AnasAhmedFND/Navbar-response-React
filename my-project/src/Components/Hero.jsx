@@ -11,6 +11,7 @@ const Hero = () => {
     slidesToScroll: 1,
   };
   return (
+    
     <>
     <section>
       

@@ -17,8 +17,15 @@ const Header = () => {
             </div>        
 
          <div className="flex gap-5 items-center">
-            <p className='flex items-center'>English <IoIosArrowDown /></p>            
-            <p className='flex items-center'>USD <IoIosArrowDown /></p>
+            <select className='bg-[#7E33E0] border-none outline-none ' name="langu" id="eng">
+              <option value="Enaglish">English</option>
+              <option value="Enaglish">বাংলা</option>
+
+              </select>           
+            <select className='bg-[#7E33E0] border-none outline-none ' name="#" id="usd">
+              <option value="#">USD</option>
+              <option value="#">BDT</option>
+            </select>
             <p className='flex items-center'>Login <RxPerson /></p>
             <p className='flex items-center'>Wishlist  <GiSelfLove /></p>
             <p><FiShoppingCart /></p>
