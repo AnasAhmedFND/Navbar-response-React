@@ -2,6 +2,7 @@ import React from 'react'
 import Lamp from '../assets/Lamp.png'
 import All from '../assets/all.png'
 import Slider from "react-slick";
+import './Hero.css'
 const Hero = () => {
   var settings = {
     dots: true,
