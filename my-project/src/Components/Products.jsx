@@ -29,13 +29,13 @@ const Products = () => {
        { produc.map((item) => (
 
         <div className=" relative group overflow-hidden  ">
-         <div className=" md:w-[230px] w-[150px]   border     ">
+         <div className=" md:w-[230px] w-[150px]        ">
             <img className=' border bg-[#f5f5f8]  w-full pt-3 ' src={item.thumbnail} alt="" />
 
            <img className='absolute top-1 md:top-5 -left-24 group-hover:left-2 duration-700 md:w-[70px] w-[50px]           ' src={Sale} alt="" />
             
             <div className="flex justify-between py-2">
-                <p className='md:text-[12px] text-[10px] '>Comfort Handy Craft</p>
+                <p className='md:text-[12px] text-[10px] md:border-b md:pb-1 '>Comfort Handy Craft</p>
                 <p className='text-[12px]   '>${item.price} <span className='text-primary'> ${item.discountPercentage}</span></p>
             </div>
 
