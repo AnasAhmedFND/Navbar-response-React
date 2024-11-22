@@ -26,7 +26,7 @@ let filter = info.filter((item) => item.id >= 1 && item.id <= 6)
       <h1 className='text-center text-2xl font-bold font-josefin mt-20 pb-10'>Featured Products</h1>
 
 
-      <div className=" md:w-[80%] mx-auto pb-14    ">
+      <div className=" md:w-[80%] mx-auto pb-14 md:col-span-4   ">
        <Slider {...settings}>{
         filter.map((item) => (
           <div className="  group w-[240px]   md:px-2  bg-white ">
