@@ -7,6 +7,7 @@ import Trending from '../Components/Trending'
 import TwoTrending from '../Components/TwoTrending'
 import Discount from '../Components/Discount'
 import Categories from '../Components/Categories'
+import Newslater from '../Components/Newslater'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <TwoTrending />
       <Discount />
       <Categories />
+      <Newslater />
     </div>
   )
 }

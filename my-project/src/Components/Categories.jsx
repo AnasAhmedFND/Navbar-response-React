@@ -21,9 +21,9 @@ const Categories = () => {
         {
             cateFilter.map((item) => (
 
-        <div className="     py-5 ">
+        <div className="   py-5 ">
            
-           <div className="ml-5 w-[240px] group  relative overflow-hidden ">
+           <div className="ml-5 w-[240px] group  relative overflow-hidden  ">
             
             <div className="absolute -left-40 group-hover:left-[28px]   border w-40 h-40 bg-blue-500 rounded-full"></div>
 
