@@ -13,7 +13,7 @@ const TwoTrending = () => {
   return (
     <>
       <div className="pb-10">
-        <h1 className='mt-8 md:mt-16 text-center font-bold text-2xl font-josefin'>Trending Products</h1>
+        <h1 className='mt-8 md:mt-16 text-center font-bold text-2xl font-josefin text-[#151875]'>Trending Products</h1>
       
         <div className="container mx-auto mt-5 md:mt-10  flex md:col-span-4 flex-wrap col-span-2 justify-center  md:justify-between ">
         { apiProduct.map((item) => (

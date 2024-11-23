@@ -5,6 +5,7 @@ import Products from '../Components/Products'
 import Shopex from '../Components/Shopex'
 import Trending from '../Components/Trending'
 import TwoTrending from '../Components/TwoTrending'
+import Discount from '../Components/Discount'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Shopex />
       <Trending />
       <TwoTrending />
+      <Discount />
     </div>
   )
 }

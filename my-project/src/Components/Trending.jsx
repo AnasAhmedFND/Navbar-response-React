@@ -10,7 +10,7 @@ const Trending = () => {
         </div>
 
         <div className="">
-            <h2 className='font-bold text-2xl font-josefin'>Unique Features Of leatest & <br />
+            <h2 className='font-bold text-2xl font-josefin text-[#151875]'>Unique Features Of leatest & <br />
             Trending Poducts</h2>
             <p className='text-[12px] '><span className='text-5xl font-bold text-primary'>.</span> All frames constructed with hardwood solids and laminates</p>
             <p className='text-[12px] relative bottom-4 '><span className='text-5xl font-bold text-blue-500'>.</span> Reinforced with double wood dowels, glue, screw - nails corner <br />    blocks and machine nails</p>
