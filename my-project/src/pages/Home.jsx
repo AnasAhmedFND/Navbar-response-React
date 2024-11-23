@@ -9,6 +9,7 @@ import Discount from '../Components/Discount'
 import Categories from '../Components/Categories'
 import Newslater from '../Components/Newslater'
 import Social from '../Components/Social'
+import Blog from '../Components/Blog'
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <Categories />
       <Newslater />
       <Social />
+      <Blog />
     </div>
   )
 }
