@@ -26,10 +26,10 @@ let filter = info.filter((item) => item.id >= 1 && item.id <= 6)
       <h1 className='text-center text-2xl font-bold font-josefin mt-20 pb-10 text-[#151875]'>Featured Products</h1>
 
 
-      <div className="  pb-14 md:col-span-4   ">
+      <div className="  pb-14   ">
        <Slider {...settings} >{
         filter.map((item) => (
-          <div className="  group w-[240px]   md:px-2  bg-white ">
+          <div className=" group w-[240px]  md:px-2  bg-white ">
 
           <div className="flex flex-col justify-center border  pb-12 pt-5  relative overflow-hidden bg-[#e9e9ec]  rounded-t-lg ">
               <img className='w-[70%]  md:ml-8  mt-5  ' src={item.thumbnail} alt="" />
