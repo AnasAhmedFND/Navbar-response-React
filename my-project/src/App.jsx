@@ -5,6 +5,8 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Home from './pages/Home'
 import Rooted from './Components/Rooted'
 import Shop from './pages/Shop'
+import Blog from './Components/Blog'
+import TwoTrending from './Components/TwoTrending'
 
 
 
@@ -13,6 +15,8 @@ function App() {
     <Route element={<Rooted/>}>
       <Route path='/' element={<Home/>} />
       <Route path='/shop' element={<Shop/>} />
+      <Route path='/blog' element={<Blog/>} />
+      <Route path='/product' element={<TwoTrending/>} />
     </Route>
 
   ))
