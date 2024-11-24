@@ -22,12 +22,12 @@ let filter = info.filter((item) => item.id >= 1 && item.id <= 6)
  
   return (
     <>
-    <div className="mt-10 ">
+    <div className="container mx-auto mt-10 ">
       <h1 className='text-center text-2xl font-bold font-josefin mt-20 pb-10 text-[#151875]'>Featured Products</h1>
 
 
-      <div className=" md:w-[80%] mx-auto pb-14 md:col-span-4   ">
-       <Slider {...settings}>{
+      <div className="  pb-14 md:col-span-4   ">
+       <Slider {...settings} >{
         filter.map((item) => (
           <div className="  group w-[240px]   md:px-2  bg-white ">
 
