@@ -14,7 +14,33 @@ const Featured = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
  let info = useContext(apiData)
@@ -32,7 +58,7 @@ let filter = info.filter((item) => item.id >= 1 && item.id <= 6)
           <div className=" group w-[240px]  md:px-2  bg-white ">
 
           <div className="flex flex-col justify-center border  pb-12 pt-5  relative overflow-hidden bg-[#e9e9ec]  rounded-t-lg ">
-              <img className='w-[70%]  md:ml-8  mt-5  ' src={item.thumbnail} alt="" />
+              <img className='w-[70%]  md:ml-8 ml-10  mt-5  ' src={item.thumbnail} alt="" />
               <button  className='absolute -bottom-16  left-1/2 -translate-x-1/2 px-5 py-2 bg-green-400 w-[60%] rounded-xl text-[10px]  text-white duration-700 ease-in-out group-hover:bottom-4  '>View Details</button>
               <div className="flex gap-5 absolute top-2 -left-36  duration-700 group-hover:left-2 ">
                 <p className='border p-2 rounded-full bg-[#e1e1eb] text-blue-400'><RiShoppingCartLine />  </p>

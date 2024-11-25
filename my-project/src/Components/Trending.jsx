@@ -3,7 +3,7 @@ import Supa from '../assets/shopex/supa.png'
 const Trending = () => {
   return (
     <>
-      <div className="md:flex items-center justify-center bg-[#F1F0FF] py-5 mt-10 ">
+      <div className="md:flex items-center justify-center bg-[#F1F0FF] py-5 mt-10">
 
         <div className="">
         <img className='w-[350px] ' src={Supa} alt="" />

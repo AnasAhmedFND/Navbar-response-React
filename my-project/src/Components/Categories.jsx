@@ -8,6 +8,32 @@ const Categories = () => {
         speed: 800,
         slidesToShow: 4,
         slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       };
     let categori = useContext(apiData);
     let cateFilter = categori.filter((item) => item.id >= 5 && item.id <= 10)
@@ -16,7 +42,7 @@ const Categories = () => {
       <div className="container mx-auto py-10 ">
         <h1 className='text-2xl font-bold font-josefin text-[#151875] text-center'>Top Categories</h1>
 
-        <div className=" ">
+        <div className="md:ml-0 ml-10 ">
         <Slider {...settings}>           
         {
             cateFilter.map((item) => (
