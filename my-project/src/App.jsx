@@ -7,6 +7,8 @@ import Rooted from './Components/Rooted'
 import Shop from './pages/Shop'
 import Blog from './Components/Blog'
 import TwoTrending from './Components/TwoTrending'
+import Shopex from './Components/Shopex'
+import Social from './Components/Social'
 
 
 
@@ -17,6 +19,8 @@ function App() {
       <Route path='/shop' element={<Shop/>} />
       <Route path='/blog' element={<Blog/>} />
       <Route path='/product' element={<TwoTrending/>} />
+      <Route path='/shopex' element={<Shopex/>} />
+      <Route path='/social' element={<Social/>} />
     </Route>
 
   ))

@@ -30,12 +30,12 @@ const Navbar = () => {
                 <li className='hover:text-primary'><Link to='/shop'>Pages</Link> </li>
                 <li className='hover:text-primary'><Link to='/product'>Products</Link> </li>
                 <li className='hover:text-primary'><Link to='/blog' >Blog</Link></li>
-                <li className='hover:text-primary'>Shop</li>
-                <li className='hover:text-primary'>Contact</li>
+                <li className='hover:text-primary'><Link to='/shopex'>Shop</Link> </li>
+                <li className='hover:text-primary'><Link to='/social'>Contact</Link></li>
                 <li className='md:ml-72 '>
                 <div className="flex ">           
             <input className='border border-black outline-none '  type="Search" />                    
-            <p className='border w-10 text-white items-center flex justify-center bg-biguni '><CiSearch /> </p>          
+            <p className='border border-red-600 w-10 text-white items-center flex justify-center bg-biguni '><CiSearch /> </p>          
             </div>
                 </li>
             </ul>
