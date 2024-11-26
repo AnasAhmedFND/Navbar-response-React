@@ -25,7 +25,7 @@ const Products = () => {
             </div>
         </div>
 
-        <div className="container md:mx-auto  overflow-scroll h-[590px]  flex flex-wrap gap-2 md:gap-6 md:justify-between justify-center  mt-10 md:col-span-4 col-span-2    ">
+        <div className="container md:mx-auto  overflow-y-scroll h-[590px]  flex flex-wrap gap-2 md:gap-6 md:justify-between justify-center  mt-10 md:col-span-4 col-span-2    ">
        { produc.map((item) => (
 
         <div className=" relative group overflow-hidden  ">
