@@ -9,7 +9,7 @@ const ContextApi = ({children}) => {
     const [data, setData] = useState([])
 
     useEffect(()=>{
-        axios.get('https://dummyjson.com/products')
+        axios.get('https://dummyjson.com/products?&limit=0')
         .then((res) =>{
             setData(res.data.products)
         })

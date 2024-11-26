@@ -10,7 +10,7 @@ const Ecommerce = () => {
        <div className="flex py-20">
        <div className="">
             <h3 className='font-bold'>Ecommerce Acceories & Fashion item </h3>
-            <p>About 9,620 results (0.62 seconds)</p>
+            <p className='text-[12px] text-[#8c8ca4] '>About 9,620 results (0.62 seconds)</p>
         </div>
 
         <div className="flex items-center ml-20">

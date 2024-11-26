@@ -1,6 +1,7 @@
 import React from 'react'
 import ShopGrid from '../Components/ShopGrid'
 import Ecommerce from '../Components/Ecommerce'
+import ProductShop from '../Components/ProductShop'
 
 
 
@@ -9,6 +10,7 @@ const About = () => {
     <>
     <ShopGrid  pageName='Shop Grid Default'  />
     <Ecommerce />
+    <ProductShop />
     </>
   )
 }
