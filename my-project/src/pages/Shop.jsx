@@ -1,11 +1,14 @@
 import React from 'react'
-import Featured from '../Components/Featured'
+import ShopGrid from '../Components/ShopGrid'
+import Ecommerce from '../Components/Ecommerce'
+
 
 
 const About = () => {
   return (
     <>
-      <Featured/>
+    <ShopGrid  pageName='Shop Grid Default'  />
+    <Ecommerce />
     </>
   )
 }

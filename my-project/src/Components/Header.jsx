@@ -1,7 +1,6 @@
 import React from 'react'
 import { MdMailOutline } from "react-icons/md";
 import { MdAddCall } from "react-icons/md";
-import { IoIosArrowDown } from "react-icons/io";
 import { RxPerson } from "react-icons/rx";
 import { GiSelfLove } from "react-icons/gi";
 import { FiShoppingCart } from "react-icons/fi";
