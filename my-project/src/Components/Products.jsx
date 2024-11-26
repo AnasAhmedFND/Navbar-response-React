@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import Imag from '../assets/product1.png'
 import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa6";
 import { FaSearchPlus } from "react-icons/fa";

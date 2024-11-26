@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext} from 'react'
 import { apiData } from './ContextApi';
 import Slider from "react-slick";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { FaRegHeart } from "react-icons/fa6";
 import Plus from '../assets/plus.png'
-import './Featured.css'
+
 
 
 const Featured = () => {
