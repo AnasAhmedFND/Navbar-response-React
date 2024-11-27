@@ -6,19 +6,21 @@ import { MdViewList } from "react-icons/md";
 const Ecommerce = () => {
   return (
     <>
-      <div className="container mx-auto">
-       <div className="flex py-20">
+      <div className="container mx-auto ">
+       <div className="md:flex md:py-20 py-10 ">
        <div className="">
             <h3 className='font-bold text-primary '>Ecommerce Acceories & Fashion item </h3>
             <p className='text-[12px] text-[#8c8ca4] '>About 9,620 results (0.62 seconds)</p>
         </div>
 
-        <div className="flex items-center ml-20">
+      <div className="flex md:mt-0 mt-4">
+
+        <div className="flex items-center md:ml-20">
             <p className=' '>Per Page:</p>
             <input className='border border-black w-[50px] ml-2 text-center' type="text" placeholder='5'/>
         </div>
 
-        <div className="flex items-center ml-10">
+        <div className="flex items-center md:ml-10  ml-5 ">
             <p className='text-[#78788f] '>Sort By:</p>
             <div className="border border-black w-[120px] flex items-center px-2 ml-2 ">
             <select   name="mod" id="quality">
@@ -31,8 +33,9 @@ const Ecommerce = () => {
            
             </div>
         </div>
+      </div>
 
-        <div className="flex items-center ml-5 ">
+        <div className="flex items-center md:ml-5 md:mt-0 mt-4">
             <p>View:</p>
             <p className='ml-2'><HiViewGrid /></p>
             <p className='ml-1'><MdViewList /></p>
