@@ -1,5 +1,5 @@
 import React from 'react'
-import { IoIosArrowDown } from "react-icons/io";
+
 import { HiViewGrid } from "react-icons/hi";
 import { MdViewList } from "react-icons/md";
 
@@ -14,23 +14,29 @@ const Ecommerce = () => {
         </div>
 
         <div className="flex items-center ml-20">
-            <p className='text-[12px] '>Per Page:</p>
-            <input className='border border-black w-[50px] ml-2' type="text" />
+            <p className=' '>Per Page:</p>
+            <input className='border border-black w-[50px] ml-2 text-center' type="text" placeholder='5'/>
         </div>
 
         <div className="flex items-center ml-10">
-            <p className='text-[12px] '>Sort By:</p>
+            <p className='text-[#78788f] '>Sort By:</p>
             <div className="border border-black w-[120px] flex items-center px-2 ml-2 ">
-            <input className='w-[80%] ' type="text" placeholder='Best Match'  />
-            <p className='w-[10%] text-[#b6b6ce] '> <IoIosArrowDown /></p>
+            <select   name="mod" id="quality">
+              <option value="best-qua">Best Match</option>
+              <option value="best-qua">Low to High</option>
+              <option value="best-qua">High to Low</option>
+              <option value="best-qua">New Arrivals</option>
+
+            </select>
+           
             </div>
         </div>
 
-        <div className="flex items-center ml-5">
+        <div className="flex items-center ml-5 ">
             <p>View:</p>
-            <p><HiViewGrid /></p>
-            <p><MdViewList /></p>
-            <input className='border border-black ml-5' type="text" />
+            <p className='ml-2'><HiViewGrid /></p>
+            <p className='ml-1'><MdViewList /></p>
+            <input className='border outline-none ml-5 ' type="Search" />
         </div>
        </div>
       </div>
