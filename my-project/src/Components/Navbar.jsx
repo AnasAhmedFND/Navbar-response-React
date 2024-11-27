@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
 
         <div className="md:flex md:justify-between  w-[80%] ">
-            <ul className={`md:flex md:gap-5 font-lato items-center   md:static  ${menuShow ? 'absolute top-20 left-34 pb-40 ' : 'absolute top-0 -left-72' }`}>
+            <ul className={`md:flex md:gap-5 font-lato items-center   md:static  ${menuShow ? 'absolute top-24 left-34 pb-44 ' : 'absolute top-0 -left-72' }`}>
                 <li className='hover:text-primary'><Link to='/'>Home</Link></li>
                 <li className='hover:text-primary'> Pages </li>
                 <li className='hover:text-primary'><Link to='/product'>Products</Link> </li>
